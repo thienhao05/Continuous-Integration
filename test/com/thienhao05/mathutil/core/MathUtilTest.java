@@ -7,7 +7,28 @@ import org.junit.Test;
 
 public class MathUtilTest {
     
-    //@Test
+    @Test   //coding convention - quy tắc viết code
+            //tên hàm kiểm thử/tên hàm của test script
+            //phải nói lên ý nghĩa của việc kiểm thử
+            //tình huốn này, ta mún test hàm getF() tham số tử tế
+            //n = 0...20!!!
+    public void testFactorialGivenRightArgumentReturnsWell() {
+        
+        //Test case số #1: n = 0, hy vọng hàm trả về 1
+        //                          thực tế hàm trả về mấy, đoán xem!!!
+        long expected = 1;
+        long actual = MathUtil.getFactorial(0); //hàm chạy đi thì mới biết
+        //so sánh giữa expected vs. actual, máy tự so, ko cần
+        //sout() khổ cực
+        Assert.assertEquals(expected, actual);
+        
+        
+        //Test case #2: n = 1, hy vọng hàm trả về 1, thực tế???
+        Assert.assertEquals(1, MathUtil.getFactorial(1));
+        
+        //Test case #3: n = 2, hy vọng hàm trả về 2, thực tế???
+        Assert.assertEquals(2, MathUtil.getFactorial(2));
+    }
     
     
     //@Test ra lệnh cho thư viện JUnit mình đã add/import
@@ -16,8 +37,10 @@ public class MathUtilTest {
     //và gửi hàm main() này cho JVM chạy - Java Virtual Machine
     //@Test ~~~~~ main()
     //ko có @Test thì class ko có main(), lấy gì mà chạy no runable method()
+    //Thư viện viết code tự do giống như JDBC, còn framework giống SpringBoot
+    //ép mình viết trong khuôn khổ nào đó
     
-    //@Test
+    @Test
     public void tryJUnitComparision() {
         //hàm này thử nghiệp việc so sánh expected vs. actual
         //coi sai đúng ra như thế nào!!!
