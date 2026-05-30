@@ -16,7 +16,18 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        tryTDDFirst();
+        //tryTDDFirst();
+        testFactorialGivenWrongArgumentThrowsException();
+    }
+    
+    
+    public static void testFactorialGivenWrongArgumentThrowsException() {
+        //Test case #3: đưa date cà chớn, n âm, n quá lớn
+        //              hàm đc thiết kế ném về ngoại lệ!!!
+        //Thấy ngoại lên mừng rơi nước mắt khi đưa vào -5
+        //thấy ngoại lệ xuất hiện như kì vọng -> passed cái test -> màu xanh
+        System.out.println("Hope to see the Exception Illegal Arguement Exception");
+        MathUtil.getFactorial(-5);
     }
     
     //hàm này đc viết ra để dùng thử kĩ thuật viết code kiểu TDD
