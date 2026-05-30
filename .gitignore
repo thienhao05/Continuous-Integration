@@ -30,4 +30,5 @@ dist/
 nbdist/
 .nb-gradle/
 
-# End of https://www.toptal.com/developers/gitignore/api/maven,netbeans
+# End of https://www.toptal.com/developers/gitignore/api/maven,netbeansmanifest.mf
+MANIFEST.MF
