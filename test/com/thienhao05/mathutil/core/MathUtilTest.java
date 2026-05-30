@@ -139,3 +139,15 @@ public class MathUtilTest {
             //NẾU EXPECTED LÀ CHÍNH XÁC, HÀM ĐÃ XỬ LÍ SAI, BUG
             //CŨNG CÓ KHI EXPECTED, CÁI TA KÌ VỌNG BỊ SAI!!! LỖI DO DÂN QC TÍNH TOÁN
             //BẰNG TAY BỊ SAI!!!
+
+// CODE **BAD SMELLS**: CODE BỐC MÙI, LÀ KHI CHÚNG TA TRONG CODE CÓ SỰ RỐI, CÓ SỰ LẶP ĐI 
+//LẶP LẠI CỦA 1 THỨ KO ĐÁNG GỌI LÀ CODE BỐC MÙI
+//NGƯỜI ĐƯA RA 1 CUỐN SÁCH CỰC KÌ NỔI TIẾNG GỌI LÀ CLEAN CODE - Robert C. Martin (“Uncle Bob”)
+//CUỐN SÁCH GỐI ĐẦU GIƯỜNG
+//SOLID, AGILE
+//BAD SMELLS
+
+//TẤT CẢ TEST CASE NÀY ĐỀU LẶP ĐI 1 ĐOẠN CODE THAY, SỐ THÔI, CÂU LỆNH KO THAY ĐỔI CHỈ CHANGE DATA ĐƯA VÀO
+//UNIT TEST (JUNIT)
+//UNIT TEST FRAMEWORK 
+//DDT: DATA DRIVEN TESTING

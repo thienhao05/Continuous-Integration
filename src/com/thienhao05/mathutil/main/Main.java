@@ -72,3 +72,19 @@ public class Main {
 //để kết luận hàm ổn/tính năng ổn, TEST CASE PASSED
 //                                 TEST CASE FAILED
 
+//Sự khác biệt giữa library và framework
+//library là tập hợp 1 cái hàm, 1 cái class để giúp ta làm việc gì đó
+//framework nó là việc giống như thư viện nhưng mà nó ép chúng ta làm việc theo cách của nó
+//Annotation @ ép chúng ta làm gì đó, bị cái framework đó điều khiển
+//Chủ động trong việc xử lý luồng, xử lý code
+// Thuật ngữ trong Testing: 
+//+ Test Driven (Đi ven) Development: là  kĩ thuật viết code đi kèm với viết các test để đảm bảo mỗi đoạn 
+//code viết ra đảm bảo chất lượng
+//XANH KHI TẤT CẢ TÌNH HUỐNG CÙNG XANH EXPECTED = ACTUAL
+//CHỈ CẦN 1 TRONG NHỮNG TEST CASE != LÀ CHẾT
+//CÓ 2 NGUYÊN NHÂN ĐỎ
+//+ ACTUAL SAI EXPECTED ĐÚNG -> BUG
+//+ KÌ VỌNG NGÁO             -> KÌ VỌNG SAI, KO CÓ CƠ SỞ SO SÁNH
+
+
+//DDT: DATA DRIVEN TESTING

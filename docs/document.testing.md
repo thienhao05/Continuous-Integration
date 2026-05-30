@@ -49,3 +49,98 @@ Nếu ta focus vào code/vào tiến độ hoàn thành code để hoàn thành 
 
 C:\Program Files\NetBeans-13\netbeans\platform\modules\ext
 [link hướng dẫn](https://youtu.be/zq6XcnZb9L0?list=PLayYhLZuuO9vPw1t2GecXHkvRfWTnaS1X&t=2150)
+
+![alt text](image-1.png)
+
+- BTVN - BÀI THUYẾT TRÌNH - DEMO NHÓM
+
+* Nhóm họp với nhau, chọn ra 1 Unit Test framework ưa thích, muốn thử nghiệm, học nó, demo
+* Google keyword: "Unit Test framework for <NNLT>" sẽ ra được tên FW ứng với NNLT bạn thích
+
+* C#: NUnit, MSTest, xUnit (dùng NuGet trong Visual Studio tải về)
+* Java: JUnit (tui đã làm rồi, cấm chọn lại), TestNG
+* JavaScript: Mocha, Jest, Jasmine, Karma...
+* Python: ...
+* PHP: ...
+
+LỊCH THUYẾT TRÌNH: THỨ 4 CỦA TUẦN THỨ 7, CÓ GHI VIDEO ĐỂ ĐƯA LÊN YT
+
+- PHẦN NGOẠI TRUYỆN - CONTINUOUS INTEGRATION - CI - TÍCH HỢP LIÊN TỤC
+
+Quy trình đóng gói app/sản phẩm/phần mềm
+
+[ci_tailieu](https://github.com/doit-now/software-testing)
+
+[devOps_tailieu](https://github.com/vietanhdo/fullstack-app-example.git)
+
+[AI_Agent](https://github.com/Pen1112003/DEMO_PROJECT.git)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+# Lấy 2 ví dụ về 2 loại app: Desktop app và Web app
+
+## Desktop app
+
+- **DESKTOP app** -> xài nó thì phải kiếm file `SETUP.EXE`, chạy file setup để xả cài app:
+
+```text
+GARENA.EXE
+COCCOC.EXE, WORD.EXE, FIFA.EXE
+IDM.EXE
+```
+
+APP NẰM TRONG FILE `SETUP.EXE`, file setup này được tạo bởi các TOOL đóng gói, ví dụ:
+
+```text
+Install Shield (setup.exe), Microsoft Installer (setup.msi)
+```
+
+---
+
+## Web app
+
+- **WEB app** -> xài nó thì cần biết URL để gõ, chạm đến nó
+
+Trước đó thì app phải được cài lên server nào đó và cấu hình...
+
+```text
+JavaWeb app thì cài lên server có Tomcat, Apache HTTP Server, NGINX...
+ASP .NET app thì cài lên server có IIS (Internet Information Server)
+```
+
+QUÁ TRÌNH SETUP CHẲNG QUA LÀ QUÁ TRÌNH XẢ NÉN, APP BÊN TRONG RA
+
+HẬU TRƯỜNG CỦA WEB, CỦA APP LÀ 1 CÁI SERVER
+
+---
+
+# GIẢI THÍCH CHUYỆN ĐÓNG GÓI DESKTOP APP
+
+![alt text](image-5.png)
+
+jre là môi trường để runtime java runtime enviroment < jdk: java developement kit
+
+![alt text](image-4.png)
+
+javac.exe -> compiler -> biến đổi file java thành .class
+
+java.exe chạy file class đó
+
+Thiếu máy ảo ko chạy đc app java
+
+Nhưng mà thiếu javac.exe -> thì ko biên dịch đc từ .java -> .class (F6 của mình)
+
+![alt text](image-6.png)
+
+Clean and Build thì mình sẽ ra được file .jar
+![alt text](image-7.png)
+
+Đóng gói cuối cùng là đóng gói app lại là SETUP.EXE || MSI (MICROSOFT INSTALL)
+
+SETUP.EXE LÀ TẬP HỢP CÁI FILE .JAR
+
+ĐÓNG GÓI LẠI XONG NHỜ THẰNG INSTALL SHEILD -> HIỆN LÊN GIAO DIỆN GIỐNG NHƯ VẬY
+
+![alt text](image-8.png)
