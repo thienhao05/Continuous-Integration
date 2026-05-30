@@ -144,3 +144,24 @@ SETUP.EXE LÀ TẬP HỢP CÁI FILE .JAR
 ĐÓNG GÓI LẠI XONG NHỜ THẰNG INSTALL SHEILD -> HIỆN LÊN GIAO DIỆN GIỐNG NHƯ VẬY
 
 ![alt text](image-8.png)
+
+- Continuous Integration
+
+- Quy trình đóng gói sản phẩm
+- javac.exe -> nằm trong jdk
+- Nén tất cả các file .class vào 1 đơn vị duy nhất
+- file .jar, .war
+- .jar đóng gói trong 1 file .exe
+- dựa tool thứ 3 là Install Shield
+- tool 2 là build tool
+- Ant người kiến
+- Ant đóng gói project, demo gọi lệnh ant
+
+---
+
+.jar, .war là file nén đc đóng gói nằm bên trong file setup.exe để thương mại hóa
+
+- web app người dùng ko cần setup gì trên máy -> ko dùng tới install shield nữa
+- mình phải hục máu làm cái file này lên trên server luôn
+
+- NetBeans phím Shift-F11 (Clean & Build) chính là GỌI CÁC TOOK ANT, MAVEN, GRANDLE ĐÓNG GÓI NÉN .CLASS GIÙM

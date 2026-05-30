@@ -61,3 +61,5 @@ public class MathUtil {
 
 //viết code mà kèm luôn kiểm thử thì kĩ thuật này gọi là TDD
 //TDD - UNIT TESTING
+
+//JUnit là tiến trình ko gán với quá trình build -> mình cần phải setup

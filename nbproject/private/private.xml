@@ -5,6 +5,7 @@
         <group>
             <file>file:/E:/giaolang.ci/math-util-ant/src/com/thienhao05/mathutil/main/Main.java</file>
             <file>file:/E:/giaolang.ci/math-util-ant/test/com/thienhao05/mathutil/core/MathUtilTest.java</file>
+            <file>file:/E:/giaolang.ci/math-util-ant/test/com/thienhao05/mathutil/core/MathUtilDDTTest.java</file>
             <file>file:/E:/giaolang.ci/math-util-ant/src/com/thienhao05/mathutil/core/MathUtil.java</file>
         </group>
     </open-files>
