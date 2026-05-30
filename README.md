@@ -10,6 +10,8 @@
 
 ![DDT source code with JUnit](screenshot/ddt-source-code-with-junit.png)
 
+![Result](screenshot/result.png)
+
 #### Connect me via phao9350@mail.com
 
 #### Copyright &#169; 2026 thienhao05
