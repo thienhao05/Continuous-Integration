@@ -1,4 +1,4 @@
-name: Demonstration of using CI with JUnit & Apache Ant | © 2023 by giao.lang
+name: CI with GitHub Actions using Ant and JUnit | © 2022 by giao.lang
 
 # This workflow will build a Java project with Ant
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-ant
@@ -22,10 +22,10 @@ jobs: # Những công việc dev làm thường ngày: lấy code, build, chạy
       - name: Check-out repository # Lấy code từ kho thảy vào máy ảo của GitHub chuẩn bị build ở bước sau
         uses: actions/checkout@v3
 
-      - name: Set up JDK 19 
+      - name: Set up JDK 18 
         uses: actions/setup-java@v3 # Khai báo cần dùng JDK để build
         with:
-          java-version: '19' # Khai báo sử dụng phiên bản JDK 19 để build
+          java-version: '18' # Khai báo sử dụng phiên bản JDK 18 để build
           distribution: 'temurin'
      
       - name: Build project with Ant
@@ -37,7 +37,7 @@ jobs: # Những công việc dev làm thường ngày: lấy code, build, chạy
       - name: Make hyperlink to jar-war file # Tạo hyperlink để download build 
         uses: actions/upload-artifact@v1
         with:
-          name: DOWNLOAD-JAR-WAR-HERE # Bản build được đánh version 1.0-SNAPSHOT
+          name: 1.0-SNAPSHOT.rar # Bản build được đánh version 1.0-SNAPSHOT
           path: staging
 
 # End of CI workflow file
