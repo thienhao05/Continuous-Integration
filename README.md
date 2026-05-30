@@ -1,3 +1,5 @@
+[![CI with GitHub Actions using Ant and JUnit](https://github.com/thienhao05/math-util-ant/actions/workflows/ci-with-ant.yml/badge.svg)](https://github.com/thienhao05/math-util-ant/actions/workflows/ci-with-ant.yml)
+
 ### You will find in this repo the following stuff:
 
 - The MathUtil.java - a replication of the famous JDK's library
