@@ -47,6 +47,34 @@ CẤU HÌNH MẤY THÔNG SỐ: SERVER NÀO, JDK GÌ, ANT GỌI RA SAO, UPLOAD .J
 - Jenkins, Bamboo CI, Team City CI, Circle CI, Travis CI... hoặc MS Azure DevOps
 - CẤU HÌNH CÁC THÔNG SỐ MIỆT MÀI LUÔN -> LƯƠNG 2K TRỞ LÊN
 
+* NHỜ GITHUB LO VIỆC ĐÓNG GÓI & CHECK XANH ĐỎ
+
+- Khai báo mượn 1 server của GitHub - mượn server Ubuntu
+- Khai báo mượn JDK 18
+- Khai báo nếu ai đó đụng vào/update KHO/project, bất cứ file nào đc update/thêm mới
+  lập tức GỌI NGAY NGƯỜI KIẾN ANT ĐỂ ĐÓNG GÓI/BUILD/CHECK
+
+- Nếu code XANH, CHO PHÉP DOWNLOAD FILE.JAR
+- Nếu code ĐỎ, BẮN EMAIL CHỬI
+
+TÁT CẢ NHỮNG VIỆC NÀY LƯU LẠI TRONG 1 FILE, ĐẶT TÊN FILE NÀY LÀ GÌ CX ĐC, NHƯNG MỞ RỖNG ĐUÔI TẬP TIN PHẢI LÀ 1 CHỮ ML: YML (ZA-MỒ)
+
+---
+
+KHI GITHUB NÓ PHÁT HIỆN AI SỬA CODE, UPLOAD LÊN, LẬP TỨC CHẠY CÁC LỆNH Ở TRONG FILE .YML NÀY, TRONG ĐÓ CÓ LỆNH ANT BUILD APP & CHECK XANH ĐỎ
+
+FILE NÀY VIẾT ĐÚNG CÚ PHÁP, QUY ƯỚC CỦA NGÔN NGỮ YML + CÚ PHÁP LỆNH CỦA GITHUB
+THÌ GITHUB MỚI HIỂU & TỰ ĐỘNG CHẠY LỆNH MÌNH MUỐN
+
+FILE NÀY PHẢI LƯU Ở THƯ MỤC
+=> .GITHUB/WORKFLOWS \ y chang README.md phải nằm ngay thư mục gốc của project
+
+## CI LÀ CẤU HÌNH QUY TRÌNH BUILD APP 1 CÁCH TỰ ĐỘNG
+
+.YML .YAML (ZA-MỒ) cũng là 1 loại ngôn ngữ đánh dấu (ML markup - language)
+LÀ 1 TẬP HỢP CỦA 1 ĐỐNG CÁC THẺ/TAG/TÊN-QUY ƯỚC DÙNG ĐỂ ĐỊNH DẠNG DATA
+THƯỜNG ĐC DÙNG ĐỂ LƯU CÁC THÔNG SỐ CẤU HÌNH CỦA 1 HỆ THỐNG NÀO ĐÓ
+
 ---
 
 VIỆC PHỤ - QUAN TRỌNG - ĐƯA CHO GITHUB THƯ VIỆN JUNIT ĐỂ LÁT HỒI ANT CỦA GITHUB XÀI!!!
