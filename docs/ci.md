@@ -347,3 +347,53 @@ git commit -m "bạn-sửa-gì-vậy-ghi-tóm-tắt-thông-điệp-trong-chuỗi
 git push
 
 ---
+
+NGOẠI TRUYỆN VỀ ML - MARKUP LANGUAGE
+// ngôn ngữ/câu chữ/bộ thẻ/tag/câu từ
+//chỉ dẫn ai đó làm việc gì đó
+//câu chữ chỉ dẫn việc hiển thị thông tin
+//theo định dạng nào đó
+.HTML
+.XML
+
+.MD (MARK DOWN)
+
+.YML .YAML (ZA- MỒ)
+
+Tui mún làm cái poster, nhờ tay designer làm giúp
+Để design đúng ý, mình phải ói cái mình muốn
+
+Chiều dọc, khổ hình/màn hình là full-hd dọc
+1080 x 1920
+
+Trên cùng, dòng chữ đậm font 30, màu hường | Workshop SWR
+
+Giữa poster, chữ bự font 120, màu hồng | REVIEW CV
+
+CUỐI POSTER, DÒNG CHỮ NHỎ, CĂN GIỮA MÀU BORDEAUX
+
+CÂU CHỮ BÊN TRÁI GỌI LÀ ĐỊNH DẠNG
+QUY ƯỚC VỀ LAYOUT, HIỂN THỊ
+CÂU CHỮ BÊN NÀY CHỈ DẪN, ĐÁNH DẤU, GỢI Ý ||| DATA
+CẦN RENDER DATA RA SAO
+CHUẨN HÓA NHỮNG CÂU CHỮ BÊN NÀY ĐỂ
+RE-USE TRONG NHỮNG LẦN DESIGN LẦN SAU
+-> CÁC BỘ THẺ/TAG
+
+ĐẬM AHIHI
+<b>
+
+chữ to rất to Xin chào
+
+<h1>            Xin chào
+#               Xin chào
+
+Mark Language - ML
+BỘ THẺ/TỪ VỰNG/QUY ƯỚC VIỆC HIỂN THỊ DATA RA SAO
+TOOL HIỂU TỪ VỰNG
+MỌI NGƯỜI HCO5 BỘ TỪ VỰNG NÀY -> THÔNG TIN ĐC RENDER, HIỂN THỊ NHƯ MONG ĐỢI
+
+HỌC CÁC ML ĐỂ TRÌNH BÀY DATA
+
+<h1>      # 
+HTML     Markdown
